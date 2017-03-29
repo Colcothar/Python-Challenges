@@ -2,3 +2,8 @@
 # First, create a variable named years. Assign years to the number of years old you are. This should be an integer. 
 
 years = 28
+
+#Now we need to multiply the number years by the number of days in a year. 
+#We'll ignore leap years, so just multiply years by 365 and assign it to the variable days.
+
+days = years * 365
