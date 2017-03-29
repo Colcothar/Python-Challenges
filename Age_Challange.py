@@ -7,3 +7,7 @@ years = 28
 #We'll ignore leap years, so just multiply years by 365 and assign it to the variable days.
 
 days = years * 365
+
+#Make a new variable named weeks. Give it the value of days divided by 7.
+
+weeks = days / 7
