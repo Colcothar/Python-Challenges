@@ -17,17 +17,17 @@ def shopping_list():
             print("Your shopping list contains: " + ', '.join(shopping_items))
             add_more = input("Would you like to add to your list? \n")
             add_more = add_more.upper()
-            if add_more == "YES":
-                next_item = input("What else would you like to add? \n")
-                next_item = str(next_item)
-                shopping_items.append(next_item)
-                print("Your shopping list now contains: " + ', '.join(shopping_items))
-            else:
-                print("Goodbye")
+        while add_more == "YES":
+            next_item = input("What else would you like to add? \n")
+            next_item = str(next_item)
+            shopping_items.append(next_item)
+            print("Your shopping list now contains: " + ', '.join(shopping_items))
+        else:
+            print("Goodbye")
                 
                 
                 
-        elif add_to_list == "NO":
+    elif add_to_list == "NO":
             print("Goodbye")
     
            
