@@ -26,6 +26,7 @@ def shopping_list():
                 add_more = str(add_more.upper())
             if add_more == "DONE" or "NO":
                 print("Goodbye")
+                print("Your list contains: " + ', '.join(shopping_items) + ".")
         elif add_to_list != "NO":
             print("Please try again.\n")
             shopping_list()
@@ -34,5 +35,6 @@ def shopping_list():
         
     
     
-                
-        
+           
+            
+shopping_list()
