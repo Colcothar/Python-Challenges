@@ -13,8 +13,6 @@ def try_again():
     else:
         quit()
 
-
-
 def com_random_number_game(a, b):
     guess = random.randint(a, b)
     print("Welcome to the number guessing game.")
@@ -45,9 +43,5 @@ def com_random_number_game(a, b):
             print("The computer did not guess your number. The computer guessed " + str(guess_two) + ".")
             try_again()
   
-
-
-
-
 
 com_random_number_game(1, 10)
